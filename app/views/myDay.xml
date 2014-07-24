@@ -1,0 +1,34 @@
+<Alloy>
+	<Window class="container">
+		<View id="mainView">
+			<ScrollView id="mainScrollView" class="verticalScroller">
+				<View class="serviceLabelContainer">
+					<Label class="serviceLabel">Current weather</Label>
+					<View class="separator"></View>
+				</View>
+				<View class="serviceContainer">
+					<ImageView id="weatherIcon" class="weatherIcon" image="/weatherIcons/snowy_light.png" />
+					<Label id="cityName" class="cityName">Houston</Label>
+					<Label id="currentWeather" class="currentWeather">85 °F</Label>
+				</View>
+				<View class="serviceLabelContainer" top="7%">
+					<Label class="serviceLabel">Quote of the day</Label>
+					<View class="separator"></View>
+				</View>
+				<View class="serviceContainer">
+					<Label id="quoteText" class="quoteText">“Quality is much better than quantity. One home run is much better than two doubles.”</Label>
+				</View>
+				
+				<View class="serviceLabelContainer" top="7%">
+					<Label class="serviceLabel">Breakfast place</Label>
+					<View class="separator"></View>
+				</View>
+				<View class="serviceContainer" onClick="openBreakfastLocationInMaps">
+					<ImageView id="mapIcon" image="/map_light.png" />
+					<Label id="locationName" class="locationName"></Label>
+				</View>
+				<View class="bounceBuffer" />
+			</ScrollView>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,53 @@
+".container": {
+	navBarHidden: true,
+	backgroundGradient: {
+		type: 'linear',
+		startPoint: {
+			x: '50%',
+			y: '0%'
+		},
+		endPoint: {
+			x: '50%',
+			y: '100%'
+		},
+		colors: [
+			{
+				color: '#D6CEC3',
+				offset: 0.0
+			},
+			{
+				color: '#E4DDCA',
+				offset: 1.0
+			}
+		]
+	}
+},
+".heading": {
+	color: "black",
+	font: {
+		fontSize: "24dip"
+	},
+	top: "15%",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+},
+".heading[formFactor=tablet]": {
+	font: {
+		fontSize: "50dip"
+	}
+}
+".logo": {
+	center: {
+		x: "50%",
+		y: null
+	},
+	bottom: "2%",
+	height: "20%"
+},
+".actionButton": {
+	backgroundColor: "#007AFF",
+	borderRadius: "5dip",
+	width: "50%",
+	height: "7%",
+	bottom: "40%",
+	color: "white"
+}

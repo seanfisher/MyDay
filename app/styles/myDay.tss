@@ -1,0 +1,140 @@
+".container": {
+	navBarHidden: true,
+	backgroundGradient: {
+		type: 'linear',
+		startPoint: {
+			x: '50%',
+			y: '0%'
+		},
+		endPoint: {
+			x: '50%',
+			y: '100%'
+		},
+		colors: [
+			{
+				color: '#00A8C6',
+				offset: 0.0
+			},
+			{
+				color: '#40C0CB',
+				offset: 1.0
+			}
+		]
+	}
+}
+
+"#mainView":{
+	top: '8%',
+	layout: 'vertical'
+}
+
+".verticalScroller": {
+	scrollType: "vertical",
+	layout: "vertical"
+}
+
+".bounceBuffer": {
+	height: "60dip",
+	width: "100%",
+	backgroundColor: "transparent"
+}
+
+".serviceLabelContainer":{
+	height: '10%',
+	width: '90%'
+}
+
+".serviceLabel":{
+	color: '#FFF',
+	font: {
+		fontFamily: 'Helvetica neue',
+		fontSize: 30,
+		fontWeight: 'normal'
+	},
+	width: '100%',
+	left: '3%',
+	textAlign: 'left'
+}
+
+".separator":{
+	width: '100%',
+	height: 1,
+	backgroundColor: 'white',
+	bottom: 0
+}
+
+".serviceContainer":{
+	height: Ti.UI.SIZE,
+	width: '80%',
+	top: '10dip'
+}
+
+".weatherIcon":{
+	left: 5,
+	right: 5,
+	top: 15,
+	width: 64,
+	// height: 64,
+	color: 'white'
+}
+
+".cityName":{
+	color: '#FFF',
+	font: {
+		fontFamily: 'Helvetica Neue',
+		fontSize: 24,
+		fontWeight: 'bold'
+	},
+	// left: 110,
+	top: 4,
+	bottom: 4,
+	height: 50,
+	right: 0,
+	width: '70%',
+	textAlign: 'center',
+	height: 'auto'
+}
+
+".currentWeather":{
+	color: '#FFF',
+	font: {
+		fontFamily: 'Helvetica Neue',
+		fontSize: 20,
+		fontWeight: 'bold'
+	},
+	top: 50,
+	right: 0,
+	bottom: 4,
+	height: 50,
+	width: '70%',
+	textAlign: 'center'
+}
+
+".quoteText":{
+	color: '#FFF',
+	font: {
+		fontFamily: 'Arial-ItalicMT',
+		fontSize: 16,
+		fontWeight: 'italic'
+	},
+	textAlign: 'center',
+	width: '100%',
+	height: Ti.UI.SIZE
+}
+
+".locationName":{
+	color: '#FFF',
+	font: {
+		fontFamily: 'Helvetica Neue',
+		fontSize: 20,
+		fontWeight: 'bold'
+	},
+	textAlign: 'center',
+	width: '80%',
+	right: 0
+}
+
+"#mapIcon":{
+	left: 0,
+	width: 24
+}

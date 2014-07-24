@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container">
+		<Label class="heading">Houston Learning Series</Label>
+		<ImageView id="logo" class="logo" image="/pariveda_logo.png" />
+		<Button class="actionButton" onClick="okButtonClicked">See the demo</Button>
+	</Window>
+</Alloy>
