@@ -4,7 +4,7 @@ Simple Appcelerator Titanium mobile app to provide weather, an inspirational quo
 
 ## Description
 
-This app was originally built as a demo app for a presentation to developers at [Pariveda Solutions](www.parivedasolutions.com) during the _Houston Learning Series_ event by @seanfisher and @mmnaviwala.
+This app was originally built as a demo app for a presentation to developers at [Pariveda Solutions](www.parivedasolutions.com) during the _Houston Learning Series_ event by [@seanfisher](https://github.com/seanfisher) and [@mmnaviwala](https://github.com/mmnaviwala).
 
 ## Setup
 
